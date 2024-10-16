@@ -1,0 +1,103 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background-color: var(--theme-color-dark);
+    border-radius: 50px;
+    width: 90px;
+    margin-top: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.logo_image{
+    height: 120%;
+    width: 120%;
+}
+
+.main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.login_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    width: 350px;
+    font-family: var(--font-family-regular);
+}
+
+.title{
+    font-size: 2.2em;
+    margin-bottom: 25px;
+}
+
+.forms{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.field{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: var(--color-auth-brand-update-black); 
+    box-sizing: border-box;
+    font-size: 1.05em;
+    padding: 1.5em;
+    border: none;
+    outline: none;
+}
+
+.field:hover{
+    outline: 1px solid var(--color-dark);
+}
+
+.field:focus{
+    outline: 2px solid var(--color-dark);
+    filter: none;
+}
+
+.message{
+    color: var(--color-message-error);
+    
+}
+
+.button{
+    height: 50px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: var(--color-dark);
+    color: var(--text-color-light);
+    font-size: 1.2em;
+    transition: border-radius 0.3s;
+    border: 0;
+}
+
+.button:hover{
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.newUser{
+    color: var(--theme-color-semi-dark);
+    text-decoration-line: underline;
+}
